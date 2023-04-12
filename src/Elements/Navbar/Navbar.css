@@ -1,0 +1,81 @@
+nav{
+    width: 100vw;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav__left{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+nav input{
+    width: 500px;
+    border: none;
+    outline: none;
+    background: #F1F1F1;
+    font-size: 13px;
+    padding: 0.6rem 0.8rem;
+    border-radius: 8px;
+    color: #000000;
+    margin-left: 2rem;
+}
+
+nav svg {
+    font-size: 19px;
+    color: rgb(212, 66, 21);
+    margin-left: -2rem;
+}
+
+
+.nav__right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav__right span{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F1F1F1;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.nav__right .cart{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #F1F1F1;
+    border-radius: 8px;
+    padding: 0.1rem 0.4rem ;
+}
+
+.nav__right .cart p{
+    font-size: 8px;
+    color: #9a9a9a;
+}
+
+.nav__right .cart h5{
+    font-size: 12px;
+    color: #000000;
+}

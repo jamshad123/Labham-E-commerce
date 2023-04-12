@@ -1,0 +1,91 @@
+.newArrivalsContainer {
+    width: 100vw;
+    background: transparent;
+    padding: 0 3rem;
+    margin-top: -10rem;
+    z-index: 100;
+}
+
+.newArrivalsContainer__inner {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.newArrivalsContainer__inner .heading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newArrivalsContainer__inner .heading h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.newArrivalsContainer__inner .heading span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #AB2921;
+    font-weight: 800;
+}
+
+.newArrivalsContainer__inner .heading span svg {
+    font-size: 15px;
+    margin-left: 0.2rem;
+}
+
+.newArrivalsContainer__inner__cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.newArrivalsContainer__inner__card {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.newArrivalsContainer__inner__card img {
+    width: 210px;
+    height: 210px;
+}
+
+
+.newArrivalsContainer__inner__card .price .dashed {
+    color: #989898;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.newArrivalsContainer__inner__card .price .originnal {
+    color: #AC2D11;
+    font-size: 15px;
+    margin: 0 0.3rem;
+    font-weight: 700;
+}
+
+.newArrivalsContainer__inner__card .price .discount {
+    color: #428D00;
+    font-size: 11px;
+    font-weight: 700;
+}
